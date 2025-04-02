@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - Huawei WIFI</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .terms-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            text-align: left;
+        }
+        .terms-content h1 {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .terms-content h2 {
+            margin: 1.5rem 0 1rem;
+            color: #007bff;
+        }
+        .terms-content p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="terms-content">
+        <h1>Terms & Conditions</h1>
+        <p>Last updated: <span id="termsDate"></span></p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing and using the Huawei WIFI application, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use the application.</p>
+
+        <h2>2. Use License</h2>
+        <p>Permission is granted to temporarily download one copy of the Huawei WIFI application for personal, non-commercial transitory viewing only.</p>
+
+        <h2>3. User Responsibilities</h2>
+        <p>As a user of the Huawei WIFI application, you agree to:</p>
+        <ul>
+            <li>Use the application in compliance with all applicable laws</li>
+            <li>Not attempt to reverse engineer or modify the application</li>
+            <li>Not use the application for any illegal purposes</li>
+            <li>Maintain the security of your account and credentials</li>
+        </ul>
+
+        <h2>4. Disclaimer</h2>
+        <p>The Huawei WIFI application is provided "as is" without any warranties, either express or implied. We do not guarantee that the application will be error-free or uninterrupted.</p>
+
+        <h2>5. Limitation of Liability</h2>
+        <p>Afro Tech Support shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the application.</p>
+
+        <h2>6. Changes to Terms</h2>
+        <p>We reserve the right to modify these terms at any time. We will notify users of any material changes via the application or email.</p>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+    <script>
+        document.getElementById('termsDate').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html> 
