@@ -11,9 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'scale(1)';
         }, 100);
 
-        // Here you can add the actual launch functionality
-        // For example, redirecting to another page or opening an application
-        alert('Launching application...');
-        // Add your launch logic here
+        // Redirect to Huawei router web interface
+        window.location.href = 'http://192.168.8.1/';
     });
 }); 
