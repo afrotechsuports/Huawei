@@ -45,25 +45,8 @@ body {
     to { transform: rotate(360deg); }
 }
 
-.creator {
-    position: absolute;
-    top: 1.2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.8);
-    letter-spacing: 2px;
-    font-style: italic;
-    text-transform: uppercase;
-    background: linear-gradient(to right, #64b5f6, #2196f3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
 .content {
     margin-bottom: 2.5rem;
-    margin-top: 2rem;
     position: relative;
     z-index: 1;
 }
