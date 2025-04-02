@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Launch button functionality
     const launchBtn = document.getElementById('launchBtn');
     launchBtn.addEventListener('click', function() {
-        // Simple redirect to router URL
-        window.location.replace('http://192.168.8.1/');
+        // Simple redirect to router login URL
+        window.location.replace('http://192.168.8.1/#/login');
     });
 }); 
